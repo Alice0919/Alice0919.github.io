@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人主页</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 微信弹出框 -->
+    <div class="wechat-modal" id="wechat-modal">
+        <div class="modal-content">
+            <img src="src/imgs/微信图标.jpg" alt="WeChat QR" class="wechat-qr">
+            <p class="wechat-text">微信号：yykllmr</p>
+            <button class="close-modal">&times;</button>
+        </div>
+    </div>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="logo">林敏菁</div>
+        <div class="menu">
+            <a href="#home" class="active">Home</a>
+            <a href="#works">Works</a>
+            <a href="#" id="contact-link">Contact</a>
+        </div>
+    </nav>
+
+    <!-- 轮播区域 -->
+    <div class="hero-section">
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="slide-content">
+                        <img src="src/imgs/20210312-68.jpg" alt="Slide 1">
+                        <div class="overlay"></div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide-content">
+                        <img src="src/imgs/e9e526d7d1c7e15b00373a4512a5a2b.jpg" alt="Slide 2">
+                        <div class="overlay"></div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide-content">
+                        <img src="src/imgs/f264c7a13d7f610f134c3fe69b6a9b2.jpg" alt="Slide 3">
+                        <div class="overlay"></div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide-content">
+                        <img src="src/imgs/6151b2ecf500de28969771a8339a1ef.jpg" alt="Slide 4">
+                        <div class="overlay"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="slide-number">01/05</div>
+        </div>
+    </div>
+
+    <!-- 个人信息卡 -->
+    <div class="info-card">
+        <div class="avatar">
+            <img src="src/imgs/6151b2ecf500de28969771a8339a1ef.jpg" alt="Avatar">
+        </div>
+        <div class="info">
+            <h1>林敏菁</h1>
+            <p class="title">Frontend Developer</p>
+            <div class="divider"></div>
+            <p class="quote">Code with passion, design with purpose</p>
+        </div>
+    </div>
+
+    <!-- 社交链接 -->
+    <footer class="social-links">
+        <div class="social-icons">
+            <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-behance"></i></a>
+            <a href="#" class="social-icon wechat-icon">
+                <img src="src/imgs/微信图标.jpg" alt="WeChat" class="wechat-icon-img">
+                <span class="wechat-id">微信号：yykllmr</span>
+            </a>
+            <a href="#" class="social-icon"><i class="fas fa-envelope"></i></a>
+        </div>
+        <div class="copyright">
+            © 2024 林敏菁 - Crafted with ☕ in YourCity
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
